@@ -24,6 +24,18 @@
 
 Glamora isn't just another online store. It's an **intelligent fashion advisor** built with a hybrid ML recommendation engine that combines content-based filtering and collaborative clustering to serve each user highly personalized product suggestions — achieving **89% relevance accuracy** across 1,000+ user profiles.
 
+## 🎯 The Problem
+
+Fashion eCommerce is broken for discovery. Users scroll endlessly through irrelevant 
+products because most platforms recommend based on **popularity or purchase history alone** 
+— useless for new users or anyone with niche taste.
+
+**Glamora solves the cold-start and relevance problem** by profiling users upfront via a 
+style quiz, vectorizing their preferences with NLP, and clustering them with similar users 
+— so even a brand new user gets personalized recommendations from session one.
+
+No browsing history needed. No prior purchases required.
+
 ```
 quiz_input → NLP (TF-IDF) → user_vector → k-means cluster → cosine_sim (products in cluster) → top 5 products
 ```
